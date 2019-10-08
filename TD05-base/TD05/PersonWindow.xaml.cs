@@ -22,7 +22,7 @@ namespace TD05
         public PersonWindow(Person p)
         {
             InitializeComponent();
-            DataContext = p;
+            DataContext = new PersonHMI(p);
         }
 
         private void Validate(object sender, RoutedEventArgs e)

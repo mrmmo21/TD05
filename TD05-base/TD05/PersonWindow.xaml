@@ -21,7 +21,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
-        <Image Source="images\contact_x.png" Grid.RowSpan="3" Margin="10"/>
+        <Image Source="{Binding Icon}" Grid.RowSpan="3" Margin="10"/>
         <Label Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" Content="Last name :" VerticalAlignment="Center" />
         <Label Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" Content="First name :" VerticalAlignment="Center" />
         <Label Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Content="Gender :" VerticalAlignment="Center" />
@@ -31,8 +31,8 @@
         <TextBox Grid.Row="0" Grid.Column="2" Margin="6" Text="{Binding LastName}"/>
         <TextBox Grid.Row="1" Grid.Column="2" Margin="6" Text="{Binding FirstName}" />
         <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal" Margin="10">
-            <RadioButton Content="Male" VerticalAlignment="Center" Margin="6" />
-            <RadioButton Content="Female" VerticalAlignment="Center" Margin="6"/>
+            <RadioButton Content="Male" VerticalAlignment="Center" Margin="6" IsChecked="{Binding IsMale}" />
+            <RadioButton Content="Female" VerticalAlignment="Center" Margin="6" IsChecked="{Binding IsFemale}"/>
         </StackPanel>
         <TextBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Text="{Binding Phone}" Margin="10"/>
         <TextBox Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Text="{Binding EMail}" Margin="10"/>

@@ -1,0 +1,9 @@
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\bin\Debug\netstandard2.0\TD05_logic.deps.json
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\bin\Debug\netstandard2.0\TD05_logic.dll
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\bin\Debug\netstandard2.0\TD05_logic.pdb
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\obj\Debug\netstandard2.0\TD05_logic.csprojAssemblyReference.cache
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\obj\Debug\netstandard2.0\TD05_logic.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\obj\Debug\netstandard2.0\TD05_logic.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\obj\Debug\netstandard2.0\TD05_logic.AssemblyInfo.cs
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\obj\Debug\netstandard2.0\TD05_logic.dll
+C:\Users\asus\Documents\GitHub\TD05\TD05-base\TD05_logic\obj\Debug\netstandard2.0\TD05_logic.pdb

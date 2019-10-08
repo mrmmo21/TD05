@@ -66,12 +66,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Directory.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="IPerson.cs" />
     <Compile Include="PersonHMI.cs" />
     <Compile Include="PersonWindow.xaml.cs">
       <DependentUpon>PersonWindow.xaml</DependentUpon>
@@ -82,7 +80,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -128,6 +125,12 @@
     <Content Include="images\edit.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TD05_logic\TD05_logic.csproj">
+      <Project>{a33efa90-534e-45e4-aa76-65150abebe6e}</Project>
+      <Name>TD05_logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

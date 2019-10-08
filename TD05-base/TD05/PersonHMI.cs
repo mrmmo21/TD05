@@ -7,7 +7,7 @@ using System.Windows.Media.Imaging;
 
 namespace TD05
 {
-    class PersonHMI : IPerson,ICloneable
+    class PersonHMI : IPerson, ICloneable
     {
 
         private Person personne;
@@ -47,6 +47,17 @@ namespace TD05
                     img = new BitmapImage(new Uri("pack://siteoforigin:,,,/images/contact_x.png"));
                 return img;
             }
+        }
+
+        public bool IsMale
+        {
+            get { return Gender == Gender.MALE; }
+            set { if (value) Gender = Gender.MALE; }
+        }
+        public bool IsFemale
+        {
+            get { return Gender == Gender.FEMALE; }
+            set { if (value) Gender = Gender.FEMALE; }
         }
 
         public void Copy(Person p)
